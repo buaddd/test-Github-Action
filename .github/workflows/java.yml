@@ -31,6 +31,6 @@ jobs:
         with:
           java-version: 1.8
       - name: test
-        run: 
+        run: |
           javac Main.java
           echo "hello world" | java Main  
